@@ -7,6 +7,7 @@ gem 'bootstrap-sass', '3.4.1'
 gem 'sassc-rails', '~> 2.0.0'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.1"
+gem "pry"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -74,4 +75,5 @@ group :test do
   gem "webdrivers"
   gem 'minitest'
   gem 'minitest-reporters'
+  gem "rails-controller-testing"
 end
